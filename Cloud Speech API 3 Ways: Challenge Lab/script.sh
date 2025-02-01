@@ -1,7 +1,6 @@
 # Set API key
-export API_KEY=AIzaSyCKsmIAeCw3iHZxpTyDkuIEhoTLTqrql6I
-# Get the current GCP project ID 
-export PROJECT_ID=$(gcloud config get-value project)
+# TODO: Replace <YOUR_API_KEY> with your API key
+export API_KEY=<YOUR_API_KEY>
 
 task_2_file="synthesize-text.txt"
 task_3_request_file="speech_request.json"
